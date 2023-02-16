@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #377dff;
+}
+.container{
+    background-color: #ffffff;
+    /* width: 90%; */
+    max-width: 31.25em;
+    padding: 3.12em 5em;
+    border-radius: 0.5rem;
+    position: absolute;
+    /* display: flex; */
+    /* justify-content: center; */
+
+    /* align-items: center; */
+
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.date{
+    font-size: 1.3em;
+    text-align: center;
+}
+.time{
+    font-size: 3em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.setAlarm{
+    display: flex;
+    justify-content: space-around;
+    /* border-radius: 0.5rem; */
+    gap: 1em;
+
+}
+hr{
+    margin:10px auto;
+    border: 2px solid black;
+}
+.box select{
+    font-size: 1.3em;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    padding: 0.4em 0.2em;
+
+}
+#stopAlarm{
+    width: 100px;
+    margin: 20px 34%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    visibility: hidden;
+}
+h3{
+    text-align: center;
+}
+.btn-delete{
+    margin-left: 50px;
+}
+.alarmList{
+    margin: 14px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.alarmLog{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px auto;
+}
